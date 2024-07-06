@@ -1,0 +1,68 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Class Selectors */
+.box {
+    margin: 25px 20em 0 0;
+    border: 5px 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: .5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+h1 {
+    color: steelblue;
+}
+
+main {
+    max-width: auto;
+    padding: 0 0 0 1em;
+}
+
+.profile-img {
+    width: 8em;
+    height: 12em;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 20rem 1rem 1rem; /* Ajusta los márgenes para espacio alrededor de la imagen */
+}
+
+
+p {
+    padding: 0;
+}
+
+aside {
+    width: 20em;
+    text-align: center;
+}
+
+aside img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: 15px;
+    text-align: center;
+}
